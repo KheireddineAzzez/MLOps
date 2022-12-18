@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/mlopsh/Mlops_HHN', '.']
+  args: ['build', '-t', 'gcr.io/mlopsh/mlops_hhn', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/mlopsh/Mlops_HHN']
+  args: ['push', 'gcr.io/mlopsh/mlops_hhn']
