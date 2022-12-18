@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/mlopsh/Mlops_HHN', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/mlopsh/Mlops_HHN']
