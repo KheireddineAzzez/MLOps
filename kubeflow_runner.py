@@ -12,9 +12,8 @@ DATA_PATH = 'gs://pipelinesproject/data'
 SERVING_DIR = 'gs://pipelinesproject/models'
 
 def run():
-    
     metadata_config = kubeflow_dag_runner.get_default_kubeflow_metadata_config()
-    tfx_image = 'gcr.io/mlopsh/mlops_hhn@sha256:684b7d5266c8d2bfa3fdbe76968cfa64d5dd712e29164038d030ae1e5ab9280b'
+    tfx_image = 'gcr.io/mlopsh/mlops_hhn@sha256:cf18e8fb67412a6acf1d461b279b53a7e02c2b044f290689fe89dec88581489c'
     runner_config = kubeflow_dag_runner.KubeflowDagRunnerConfig(
         kubeflow_metadata_config=metadata_config, tfx_image=tfx_image
     )
