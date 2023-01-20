@@ -10,6 +10,7 @@
 -  Linux distribution system (Ubuntu..) or you can use **WSL** if you have Microsoft Windows
 -  Python 
 -  TFX library 
+-  Google clould Console
 -  Docker 
 -  Google Cloud Platform(GCP) Account
 - Code Editor 
@@ -51,18 +52,41 @@
  
  **4.** On the GCR page, click on "Enable" to activate the service.
 
+
+
 ##### Google cloud Kubernets 
 So now we are going to create Kubernets cluster for our pipeline :
 To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the Google Kubernetes Engine (GKE) service. Here are the general steps to create a cluster:
 
 **1.** Go to the GCP Console (console.cloud.google.com) and navigate to the Kubernetes Engine page.
+
 **2.** Select the project that you want to use for the cluster.
+
 **3.** Click on the "Create Cluster" button.
 ![image](Tutorialimages/Kubernets_cluster.png)
 **4.** After that  a pop up will appear. Choose the configure option for low cost
 ![image](Tutorialimages/Choose_the_configure_option.png)
 
-**5.** On the "Create a Kubernetes cluster" page, you will have several options to configure the cluster
+**5.** On the "Create a Kubernetes cluster" page, you will have several options to configure the cluster.
+  - For this part of configuration we are not gonna do any thing,but you can give a name to you cluster
+  - 
+<img src="Tutorialimages/Cluster_basic.png"  width="600" height="300">
+
+ - Now go `Default pool` section make sure that there is at least 3 nodes :
+  
+  
+<img src="Tutorialimages/Default%20pool.png"  width="500" height="300">
+
+- Now go to `Nodes` section where we are going to configure our nodes 
+    - Make sure that you select **Ubuntu** as image for our node
+    - The serie N1
+    - Machine Type n1-standart-2(2 vCPu, 7.5GB memory) for low cost of money and it is enought for this project
 
 
 
+<img src="Tutorialimages/Node%20Configuration.png"  width="500" height="300">
+
+
+- Now go to `Security ` section where we are going to give the access to ower nodes to use the other google API Service:
+   
+<img src="Tutorialimages/security_Section.png"  width="500" height="300">
