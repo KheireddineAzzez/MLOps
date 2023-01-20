@@ -43,8 +43,26 @@
 ##### Google cloud Registry
 > Google Cloud Registry (GCR) is a fully-managed, private Docker container registry that allows you to store, manage, and deploy Docker container images on Google Cloud Platform.
 
-Now go to search imput where you gonna search for the services that you are gonna to activate:
-![image](Tutorialimages/Container_reegistry_chose.png)
+>To activate Google Cloud Registry (GCR) on Google Cloud Platform (GCP), you can follow these steps:
+
+ **1.** Go to the GCP Console (console.cloud.google.com) and navigate to the Kubernetes Engine page.
+ **2.** Select the project that you want to use for GCR.
+ **3.** In the left sidebar, click on "Container Registry" to access the GCR page.
+ 
+ **4.** On the GCR page, click on "Enable" to activate the service.
+
+##### Google cloud Kubernets 
+So now we are going to create Kubernets cluster for our pipeline :
+To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the Google Kubernetes Engine (GKE) service. Here are the general steps to create a cluster:
+
+**1.** Go to the GCP Console (console.cloud.google.com) and navigate to the Kubernetes Engine page.
+**2.** Select the project that you want to use for the cluster.
+**3.** Click on the "Create Cluster" button.
+![image](Tutorialimages/Kubernets_cluster.png)
+**4.** After that  a pop up will appear. Choose the configure option for low cost
+![image](Tutorialimages/Choose_the_configure_option.png)
+
+**5.** On the "Create a Kubernetes cluster" page, you will have several options to configure the cluster
 
 
 
