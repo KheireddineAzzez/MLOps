@@ -68,25 +68,36 @@ To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the G
 ![image](Tutorialimages/Choose_the_configure_option.png)
 
 **5.** On the "Create a Kubernetes cluster" page, you will have several options to configure the cluster.
-  - For this part of configuration we are not gonna do any thing,but you can give a name to you cluster
-  - 
+  - For this part of configuration we are not gonna do any thing,but you can give a name to you cluster if you want
+  
 <img src="Tutorialimages/Cluster_basic.png"  width="600" height="300">
 
- - Now go `Default pool` section make sure that there is at least 3 nodes :
+*** 
+
+ **6.** Now go `Default pool` section make sure that there is at least 3 nodes :
   
   
 <img src="Tutorialimages/Default%20pool.png"  width="500" height="300">
 
-- Now go to `Nodes` section where we are going to configure our nodes 
-    - Make sure that you select **Ubuntu** as image for our node
-    - The serie N1
-    - Machine Type n1-standart-2(2 vCPu, 7.5GB memory) for low cost of money and it is enought for this project
+*** 
+**7.** Now go to `Nodes` section where we are going to configure our nodes 
+   - Make sure that you select **Ubuntu** as image for our node
+   - The serie : **N1**
+   - **Machine Type :** n1-standart-2(2 vCPu, 7.5GB memory) for low cost of money and it is enought for this project
 
 
 
 <img src="Tutorialimages/Node%20Configuration.png"  width="500" height="300">
 
-
-- Now go to `Security ` section where we are going to give the access to ower nodes to use the other google API Service:
+***
+**8.** Now go to `Security ` section where we are going to give the access to ower nodes to use the other google API Service:
    
 <img src="Tutorialimages/security_Section.png"  width="500" height="300">
+
+> **Note**: After that, click on create 'This operation cloud take some time'
+
+***
+
+**9.** After the creation go back to the [Kubernets lists](https://console.cloud.google.com/kubernetes/list) you must see your cluster runing : 
+
+<img src="Tutorialimages/cluster_running.png"  width="600" >
