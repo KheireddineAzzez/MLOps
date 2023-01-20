@@ -38,10 +38,13 @@
    - Google Cloud Registry (GCR)
    - Google cloud Storage
    - AI Platform 
-   - 
+   - Kubernets Engine
 
 ##### Google cloud Registry
 > Google Cloud Registry (GCR) is a fully-managed, private Docker container registry that allows you to store, manage, and deploy Docker container images on Google Cloud Platform.
+
+Now go to search imput where you gonna search for the services that you are gonna to activate:
+![image](Tutorialimages/Container_reegistry_chose.png)
 
 
 
