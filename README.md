@@ -179,4 +179,7 @@ If prompted, log in to your Google account (choose the google account that you c
 ### Actions
 
 #### Docker 
-Now we are going to upload the image that would being use to create
+> Now we are going to upload the image on Google Cloud Registry, that image would be use at each stage of our pipeline.
+ 
+
+
