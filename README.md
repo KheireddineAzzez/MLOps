@@ -66,6 +66,8 @@ To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the G
 
 <img src="Tutorialimages/Kubernets_cluster.png"  height="200" width="400" />
 
+***
+
 **4.** After that  a pop up will appear. Choose the configure option for low cost
 
 <img src="Tutorialimages/Choose_the_configure_option.png"  width="400" height="200">
@@ -153,3 +155,28 @@ If prompted, log in to your Google account (choose the google account that you c
 - The dashboard will be something like this  
 <br>
 <img src="Tutorialimages/KubeFlow_Dashboard.png"  width="400" height="400" />
+
+***
+
+#### Get Access Token 
+- To get access token to your Google cloud environment you have to go to [AIM and Admin](https://console.cloud.google.com/iam-admin) in order to get access token to used later with Goolge SDK
+
+  **1.** First Step go to Service Account
+  **2.** click on the action button that related to your project
+  **3.** Click on message key
+
+<img src="Tutorialimages/Token_Form_IAM_Admin.png"  width="600" height="400" />
+<br/>
+
+<br/>
+
+**4.** After clicking on messages keys a window will appear, next click on create new key. After creating the key, download it and save it because we are goinng to need it later.
+
+<img src="Tutorialimages/Click_one_Create_new_Key.png"  width="600" height="400" />
+
+***
+
+### Actions
+
+#### Docker 
+Now we are going to upload the image that would being use to create
