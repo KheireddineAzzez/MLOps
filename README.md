@@ -30,10 +30,18 @@
 
    > Note : **we have complete now the creation of the project**
 
+*** 
 
 #### Activate services 
 
 * In this step we are going to activate some service which are :
-   - Google Registry
+   - Google Cloud Registry (GCR)
    - Google cloud Storage
+   - AI Platform 
    - 
+
+##### Google cloud Registry
+> Google Cloud Registry (GCR) is a fully-managed, private Docker container registry that allows you to store, manage, and deploy Docker container images on Google Cloud Platform.
+
+
+
