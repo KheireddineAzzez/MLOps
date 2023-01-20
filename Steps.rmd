@@ -4,5 +4,19 @@
 
 ### Purpose of this project
 
-> Learn how to utilize Google Cloud to build a real-world machine learning pipeline, using the same techniques employed in large-scale projects.
+>Learn how to utilize Google Cloud to build a real-world machine learning pipeline, using the same techniques employed in large-scale projects.
+
+## Requirements 
+-  Linux distribution system (Ubuntu..)
+-  Python 
+-  TFX library 
+-  Docker 
+-  Google Cloud Platform(GCP) Account
+- Code Editor 
+
+## Steps
+
+### Prepare the Environment
+- The first step is to install Docker on your pc because we are gonna to use docker to push our Docker image on google cloud registry. [Docker Instalation](https://docs.docker.com/engine/install/)
+- The next step is one of the most step in this  tutorial where we are going to 
 
