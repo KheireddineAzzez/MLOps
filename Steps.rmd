@@ -1,0 +1,7 @@
+# Steps to produce this solution
+## _MLOPS PROJECT 2022-2023_
+
+
+
+This is an example in how you can use Google cloud to create a Real machine learning pipeline, in which the same steps is used by the 
+
