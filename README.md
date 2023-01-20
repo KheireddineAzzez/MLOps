@@ -63,9 +63,10 @@ To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the G
 **2.** Select the project that you want to use for the cluster.
 
 **3.** Click on the "Create Cluster" button.
-![image](Tutorialimages/Kubernets_cluster.png)
+<img src="Tutorialimages/Kubernets_cluster.png"  width="400" >
 **4.** After that  a pop up will appear. Choose the configure option for low cost
-![image](Tutorialimages/Choose_the_configure_option.png)
+
+<img src="Tutorialimages/Choose_the_configure_option.png"  width="400" height="200">
 
 **5.** On the "Create a Kubernetes cluster" page, you will have several options to configure the cluster.
   - For this part of configuration we are not gonna do any thing,but you can give a name to you cluster if you want
@@ -101,3 +102,33 @@ To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the G
 **9.** After the creation go back to the [Kubernets lists](https://console.cloud.google.com/kubernetes/list) you must see your cluster runing : 
 
 <img src="Tutorialimages/cluster_running.png"  width="600" >
+
+
+### Install Google Cloud SDK
+> The Google Cloud SDK is a set of tools for interacting with Google Cloud services through the command line
+
+Download the Google Cloud SDK installer for your operating system from this link: [Google SDK Download](https://cloud.google.com/sdk/docs/install)
+
+Run the installer and follow the prompts. This will install the gcloud command-line tool and other components of the SDK.
+
+After installation, open a command prompt or terminal window and run the command gcloud init to initialize the SDK and set up your Google Cloud project.
+
+If prompted, log in to your Google account (choose the google account that you create with you GCP Acount) and select the project you want to use with the SDK.
+
+***
+### Google Cloud AI Platform
+- Now go to Goolge cloud [AI Platform](https://console.cloud.google.com/ai-platform) to create Kubeflow instance
+
+
+<img src="Tutorialimages/Google_Cloud_Piple_AI_Platform.png"  width="600" />
+
+
+- Now a new window appeared, click on create New instance
+
+<img src="Tutorialimages/Click_on_create_new_Instance_Kubeflow.png"  width="600" />
+
+
+
+- Now a new window appeared, click on configure because we are going to configure the kubeflow depends on the nodes that we have been created previousily in [Kubernetes](#google-cloud-kubernets) section
+
+<img src="Tutorialimages/Click_on_create_new_Instance_Kubeflow.png"  width="600" />
