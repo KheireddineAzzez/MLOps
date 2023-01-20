@@ -2,6 +2,7 @@
 ## _MLOPS PROJECT 2022-2023_
 
 
+### Purpose of this project
 
-This is an example in how you can use Google cloud to create a Real machine learning pipeline, in which the same steps is used by the 
+> Learn how to utilize Google Cloud to build a real-world machine learning pipeline, using the same techniques employed in large-scale projects.
 
