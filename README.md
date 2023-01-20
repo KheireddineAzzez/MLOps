@@ -124,13 +124,32 @@ If prompted, log in to your Google account (choose the google account that you c
 
 <img src="Tutorialimages/Google_Cloud_Piple_AI_Platform.png"  width="600" />
 
-
+***
 - Now a new window appeared, click on create New instance
 
 <img src="Tutorialimages/Click_on_create_new_Instance_Kubeflow.png"  width="600" />
 
-
+***
 
 - Now a new window appeared, click on configure because we are going to configure the kubeflow depends on the nodes that we have been created previousily in [Kubernetes](#google-cloud-kubernets) section
 
-<img src="Tutorialimages/Click_on_create_new_Instance_Kubeflow.png"  width="600" />
+<img src="Tutorialimages/Configure_KubeFlow.png"  width="600" />
+
+  ***
+
+- After clicking on  the Configure option button, a new window will appear, for this configuation we are gonna to choose the cluster that we are going to run our KubeFlow on, for that reason we will choose the cluster [Kubernetes](#google-cloud-kubernets) that we created in the previous steps. And then click on Deploy
+
+<img src="Tutorialimages/Final_Step_of_kubeFlow.png"  height="400" />
+ 
+> **Note**: This operation cloud take some time
+***
+
+- Now you can access to your KubeFLow instance by clicking on Open Pipeline Dashboard
+
+<img src="Tutorialimages/Results_of_KubeFlow)install.png"  height="400" />
+
+***
+
+- The dashboard will be something like this  
+
+<img src="Tutorialimages/KubeFlow_Dashboard.png"  height="400" />
