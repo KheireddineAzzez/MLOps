@@ -63,6 +63,7 @@ To create a Kubernetes cluster on Google Cloud Platform (GCP), you can use the G
 **2.** Select the project that you want to use for the cluster.
 
 **3.** Click on the "Create Cluster" button.
+
 <img src="Tutorialimages/Kubernets_cluster.png"  width="400" />
 
 **4.** After that  a pop up will appear. Choose the configure option for low cost
