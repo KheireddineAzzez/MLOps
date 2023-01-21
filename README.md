@@ -182,7 +182,7 @@ If prompted, log in to your Google account (choose the google account that you c
 > Now we are going to upload the image on Google Cloud Registry, that image would be use at each stage of our pipeline.
 
 > **Note**: you have to open this file [cloudbuild](cloudbuild.yaml) and change some parameters depends on you project name: 
-> Now go to this line  [Line3](cloudbuild.yaml#3) and change this line  "args: ['build', '-t', 'gcr.io/mlopsh/mlops_hhn', '.']
+> Now go to this line  [Line3](cloudbuild.yaml#L3) and change this line  "args: ['build', '-t', 'gcr.io/mlopsh/mlops_hhn', '.']
 
 
 To follow this step you must be already installed docker, because we are gonna build the docker image localy and uploaded on GCR.
