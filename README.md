@@ -215,7 +215,7 @@ gcloud builds submit --config cloudbuild.yaml .
 * In my case i will click on mlops_hhn to get the link of my image and for your case that will depends on your path. You must see some thing like this : 
   <img src="Tutorialimages/Get_docker_image_Link.png"  width="600" height="400" />
 
-* After copying the image link, now go to this file [Kubeflow_runner](kubeflow_runner.py) at [line16](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/kubeflow_runner.py#L16) in order to update the link that your kubeflow server will use to call the image at each stage of the pipeline and you are gonna to upadte the image that will be assigned to each stage of the pipeline.
+* After copying the image link, now go to this file [Kubeflow_runner](kubeflow_runner.py) at [line16](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/kubeflow_runner.py#L16) in order to update the link that your kubeflow server will use to call the image at each stage of the pipeline and you are gonna to upadate the image that will be assigned to each stage of the pipeline.
 
 ***
 
