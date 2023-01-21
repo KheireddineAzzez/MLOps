@@ -209,3 +209,28 @@ gcloud builds submit --config cloudbuild.yaml .
 * After copying the image link, now go to this file [Kubeflow_runner](kubeflow_runner.py) at [line16](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/kubeflow_runner.py#L16) in order to update the link that your kubeflow server will use to call the image at each stage of the pipeline and you are gonna to upadte the image that will be assigned to each stage of the pipeline.
 
 ***
+
+### TFX commands
+* For this part you must have already installed TFX, you can do this by running this code 
+  
+```python 
+pip install TFX
+``` 
+* if the installation is done. You need now to get you [access token](#get-access-token) and put inside this project.
+  
+* TFX library is using the default variables of your system, however you have just to run this line of code in your comande line 
+
+```python
+
+export  GOOGLE_APPLICATION_CREDENTIALS="Access_Token_FILE".json  
+```  
+  
+* After that run this code to upload your pipeline inside Kubeflow.
+  
+```python
+
+tfx pipeline create --pipeline-path=kubeflow_runner.py --endpoint="Endpoint of your KubeFlowe Server" 
+```
+* As you can see TFX is converting your pipeline through using kfp and uploading it on Kubeflow.
+
+  <img src="Tutorialimages/TFX_Upload_pipeline.png"  width="600" height="400" />
