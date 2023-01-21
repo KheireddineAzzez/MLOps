@@ -4,7 +4,7 @@
 
 ### Purpose of this project
 
->Learn how to utilize Google Cloud to build a real-world machine learning pipeline, using the same techniques employed in large-scale projects.
+>Learna how to utilize Google Cloud to build a real-world machine learning pipeline, using the same techniques employed in large-scale projects.
 
 ## Requirements 
 -  Linux distribution system (Ubuntu..) or you can use **WSL** if you have Microsoft Windows
