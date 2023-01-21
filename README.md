@@ -176,6 +176,13 @@ If prompted, log in to your Google account (choose the google account that you c
 
 ***
 
+### Google Storage  
+* Before going to the  actions section we have to set our data that is gonna to  be use during our pipeline for that reason, I got data (free of charge) that you can use during this tutorial. So you can [download](data.csv) this data. For that reason you must have enabled your storage system first. For this project we have three main folders where our crude data exist, model, metadata(Input and output) of each stage of the pipeline will be register in.
+  
+ <img src="Tutorialimages/google_Cloud.png"  width="600" height="400" />    
+
+ * So put the data that you have just downloweded in the data folder.
+
 ### Actions
 
 #### Docker 
