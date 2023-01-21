@@ -47,7 +47,9 @@
 >To activate Google Cloud Registry (GCR) on Google Cloud Platform (GCP), you can follow these steps:
 
  **1.** Go to the GCP Console (console.cloud.google.com) and navigate to the Kubernetes Engine page.
- **2.** Select the project that you want to use for GCR.
+
+ **2.** Select the project that you want to use for GCR. 
+
  **3.** In the left sidebar, click on "Container Registry" to access the GCR page.
  
  **4.** On the GCR page, click on "Enable" to activate the service.
@@ -159,7 +161,7 @@ If prompted, log in to your Google account (choose the google account that you c
 ***
 
 #### Get Access Token 
-- To get access token to your Google cloud environment you have to go to [AIM and Admin](https://console.cloud.google.com/iam-admin) in order to get access token to used later with Goolge SDK
+- To get access token to your Google cloud environment you have to go to [AIM and Admin](https://console.cloud.google.com/iam-admin) in order to get access token to  use it later with Goolge SDK
 
   **1.** First Step go to Service Account
   **2.** click on the action button that related to your project
@@ -177,7 +179,7 @@ If prompted, log in to your Google account (choose the google account that you c
 ***
 
 ### Google Storage  
-* Before going to the  actions section we have to set our data that is gonna to  be use during our pipeline for that reason, I got data (free of charge) that you can use during this tutorial. So you can [download](data.csv) this data. For that reason you must have enabled your storage system first. For this project we have three main folders where our crude data exist, model, metadata(Input and output) of each stage of the pipeline will be register in.
+* Before going to the  actions section we have to set our data that is gonna to  be used during our pipeline for that reason, I got data (free of charge) that you can use  during this tutorial. So you can [download](data.csv) this data. For that reason, you must have enabled your storage system first.For this project, we have three main folders: Data, where our raw data is stored; Model, where our trained models are saved; and Metadata, where the input and output of each stage of the pipeline are recorded and tracked.
   
  <img src="Tutorialimages/google_Cloud.png"  width="600" height="400" />    
 
