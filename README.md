@@ -182,7 +182,8 @@ If prompted, log in to your Google account (choose the google account that you c
 > Now we are going to upload the image on Google Cloud Registry, that image would be use at each stage of our pipeline.
 
 > **Note**: you have to open this file [cloudbuild](cloudbuild.yaml) and change some parameters depends on you project name: 
-> Now go to this line  [Line3](cloudbuild.yaml#L3) and change this line  "args: ['build', '-t', 'gcr.io/mlopsh/mlops_hhn', '.']
+> Now go to this line  [Line3]([cloudbuild.yaml#L3](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/cloudbuild.yaml#L3)) and  line  [Line5]([cloudbuild.yaml#L3](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/cloudbuild.yaml#L5)) and change this path "mlopsh/mlops_hhn" to the path of your project. because the  id of my project on Google cloud called mlopsh
+> Example "Project_id/Your_path" 
 
 
 To follow this step you must be already installed docker, because we are gonna build the docker image localy and uploaded on GCR.
@@ -202,3 +203,9 @@ gcloud builds submit --config cloudbuild.yaml .
  
 <img src="Tutorialimages/GCR_image_Home_page.png"  width="600" height="400" />
 
+* In my case i will click on mlops_hhn to get the link of my image and for your case that will depends on your path. You must see some thing like this : 
+  <img src="Tutorialimages/Get_docker_image_Link.png"  width="600" height="400" />
+
+* After copying the image link, now go to this file [Kubeflow_runner](kubeflow_runner.py) at [line16](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/kubeflow_runner.py#L16) in order to update the link that your kubeflow server will use to call the image at each stage of the pipeline and you are gonna to upadte the image that will be assigned to each stage of the pipeline.
+
+***
