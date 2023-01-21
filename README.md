@@ -183,7 +183,7 @@ If prompted, log in to your Google account (choose the google account that you c
   
  <img src="Tutorialimages/google_Cloud.png"  width="600" height="400" />    
 
- * So put the data that you have just downloweded in the data folder.
+ * So put the data that you have just downlowded in the data folder.
 
 ### Actions
 
