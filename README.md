@@ -180,6 +180,24 @@ If prompted, log in to your Google account (choose the google account that you c
 
 #### Docker 
 > Now we are going to upload the image on Google Cloud Registry, that image would be use at each stage of our pipeline.
- 
 
+> **Note**: you have to this file [cloudbuild](cloudbuild.yaml) and change some parameters depends on you project name:
+>  
+
+To follow this step you must be already installed docker, because we are gonna build the docker image localy and uploaded on GCR.
+
+* First of all check if you have already installed gcloud 
+```sh
+gcloud
+```
+* If gcloud is already intalled and assigned to your GCP account, you can start to push your image.
+  
+```sh
+gcloud builds submit --config cloudbuild.yaml .
+```
+* So now go to your [GCR](https://console.cloud.google.com/gcr/images) page and you must see something like this
+  
+>**Note** : if you want to change the folder name of your image you can go here [CloudBUILD FILE](cloudbuild.yaml)
+ 
+<img src="Tutorialimages/GCR_image_Home_page.png"  width="600" height="400" />
 
