@@ -188,7 +188,7 @@ If prompted, log in to your Google account (choose the google account that you c
 ### Actions
 
 #### Docker 
-> Now we are going to upload the image on Google Cloud Registry, that image would be use at each stage of our pipeline.
+> Now we are going to upload the image on Google Cloud Registry, that  will be used at each stage of our pipeline.
 
 > **Note**: you have to open this file [cloudbuild](cloudbuild.yaml) and change some parameters depends on you project name: 
 > Now go to this line  [Line3]([cloudbuild.yaml#L3](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/cloudbuild.yaml#L3)) and  line  [Line5]([cloudbuild.yaml#L3](https://github.com/KheireddineAzzez/MLOps/blob/cb60ce312e21abbc3cc71e7176ff83aafa83d2c0/cloudbuild.yaml#L5)) and change this path "mlopsh/mlops_hhn" to the path of your project. because the  id of my project on Google cloud called mlopsh
